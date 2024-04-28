@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./age.css" />
+    
+  </head>
+  <body>
+    <header><h1 class="logo">Age calculator</h1></header>
+    <div class="middle">
+      <img src="./undraw_season_change_f99v.svg" alt="time" />
+      <div class="container">
+        <h1 class="age-calculator">Age Calculator</h1>
+        <div class="entry">
+          <label for="">Date of birth</label>
+          <input type="date" value="2024-01-01" id="date" />
+        </div>
+        <div class="submit-btn">
+          <button type="submit" id="calculate-btn">Calculate</button>
+          <button type="submit" class="reset" id="reset-btn">Reset</button>
+        </div>
+      </div>
+    </div>
+    <div id="result"><h1>Age now in days:</h1><div id="ageIs"></div></div>
+  </body>
+  <script src="./age.js"></script>
+</html>
